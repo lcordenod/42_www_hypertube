@@ -66,7 +66,7 @@ User input has been secured on front and back end with immediate feedback for fr
 
 Password will be hashed (sha512) with a salt for 5 iterations first before being saved in the DB.
 
-![Register](https://user-images.githubusercontent.com/45239771/67024025-035b7780-f104-11e9-9a82-cde8fa7b659d.png)
+![Register](https://user-images.githubusercontent.com/45239771/67024447-b75d0280-f104-11e9-87bd-b78ac3fab4ec.png)
 <p align=center><i>Register</i></p>
 
 Before saving user, several checks will also be runned in the background, including:
