@@ -138,7 +138,7 @@ User is able to delete his account as well, this will remove him from database a
 ![Search](https://user-images.githubusercontent.com/45239771/67025070-b082bf80-f105-11e9-8d92-e3cfa9d71945.jpg)
 <p align=center><i>Search</i></p>
 
-Once registered and logged, users will be able to search for movies on the platform. By default, they will get a list of suggestions of movies based on the best ratings.
+Once registered and logged, users will be able to search for movies on the platform. By default, they will get a list of suggestions of movies based on the best ratings. Movies already seen will be marked with an "eye" watched pin.
 
 #### Search terms
 
@@ -154,6 +154,37 @@ User can also refine its search by selecting filters:
 - Range of ratings
 - Genre
 
-## Movie details
+## Movie
 
-###
+### Movie details
+
+![Movie details](https://user-images.githubusercontent.com/45239771/67025626-a1504180-f106-11e9-8187-85e29f5ed0af.jpg)
+<p align=center><i>Movie details</i></p>
+
+When clicking on a movie, user will access a movie page to get more details about the movie including:
+* Movie poster
+* Release in theater
+* Duration
+* Director
+* Cast
+* Summary
+
+He will also see the list of sources available for that movie with the different qualities (720p/1080p).
+
+### Comments
+
+![Comments](https://user-images.githubusercontent.com/45239771/67026064-61d62500-f107-11e9-93ca-873be8898669.jpg)
+<p align=center><i>Comments</i></p>
+
+Comments help users get a glimpse of the movie and see what users think about it or about the sources. By clicking on a username from a comment posted, user will access the profile of the user that left the comment.
+
+### Movie playback
+
+![Movie player](https://user-images.githubusercontent.com/45239771/67026295-c2fdf880-f107-11e9-8b20-b3fa403b8dcd.jpg)
+<p align=center><i>Movie player</i></p>
+
+When user picks a source from the selector, the download and stream of the movie will start with the quality and source selected.
+
+The player will progressively get the packages we give it to play so that user can also move the playback of the movie ahead and we will prioritize packages of the movie file from there so that he won't have to wait for the full download of the movie to move into the movie.
+
+
