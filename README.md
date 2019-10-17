@@ -109,3 +109,40 @@ Users can retrieve their movies seen on their profile page, they can also what o
 ##### Following
 
 Users can also follow each other in order to retrieve easily profiles that they like or want to store on their profile. This will also be shown in a "Following" category on profiles following others, if following no one, the category won't be shown until someone is followed.
+
+Users can also unfollow users so that these profiles no longer appear in their following section on their profile.
+
+#### Edit email and password
+
+User is able to modify his email and password from the account settings modal, password will be hashed.
+
+#### Delete account
+
+User is able to delete his account as well, this will remove him from database and other users no longer will be available to see his profile, nor following him.
+
+## Movies search
+
+### Display list
+
+// SCREENSHOT HERE
+
+Once registered and logged, users will be able to search for movies on the platform. By default, they will get a list of suggestions of movies based on the best ratings.
+
+#### Search terms
+
+User is able to search a movie by entering completely or partly the name of the movie. If movies match his search term, a list will be returned to him ordered by default of the sorting he picked.
+
+##### Filters
+
+User can also refine its search by selecting filters:
+
+- Range of release years
+- Range of ratings
+
+##### Sort
+
+Additionally, he can sort the results:
+
+- Default (rating)
+- Name
+- Release date
