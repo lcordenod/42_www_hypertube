@@ -95,7 +95,7 @@ The reset of password link will have a unique ID, which will be the latest link 
 
 User profiles are accessible via the `/user/username` url, so this means that each user has his own profile link and can share it. Also if user is on his own profile, he will be able to edit it, while if he is on someone else profile, he can follow that user.
 
-![User profile](https://user-images.githubusercontent.com/45239771/67024230-58978900-f104-11e9-8859-ac9b47cd3198.gif)
+![User profile](https://user-images.githubusercontent.com/45239771/67024802-4d912880-f105-11e9-80f4-417b987005a6.gif)
 <p align=center><i>User profile</i></p>
 
 #### Information edition
