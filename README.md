@@ -66,7 +66,8 @@ User input has been secured on front and back end with immediate feedback for fr
 
 Password will be hashed (sha512) with a salt for 5 iterations first before being saved in the DB.
 
-// SCREENSHOT HERE
+![Hyperflix home](https://user-images.githubusercontent.com/45239771/67024025-035b7780-f104-11e9-9a82-cde8fa7b659d.png)
+<p align=center><i>Hyperflix home</i></p>
 
 Before saving user, several checks will also be runned in the background, including:
 
@@ -75,6 +76,14 @@ Before saving user, several checks will also be runned in the background, includ
 - Verifying (as said earlier) if input is in the right format required
 
 Once user is created, he will be receive an email to verify his account, while account isn't validated, he wont be able to access the app (a message will be displayed to inform him).
+
+User can also choose to register/login with:
+* Facebook
+* Twitter
+* Google
+* 42 intra
+
+If username/email already exists, account will be merge and user will be able to connect via multiple methods.
 
 ### Forgot and change of password
 
