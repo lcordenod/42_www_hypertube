@@ -31,7 +31,7 @@ Hypertube project handles:
 - User profile edition (password, details, preferences)
 - App fully available in 3 languages (French, English and Spanish)
 - Movies suggestions by rating (w/ movies seen identified on page)
-- Movies search by name, filters (release year, rating) and sorted (rating, release year, genre, name...)
+- Movies search by name, filters (release year, rating, genre)
 - Movie pages with details on cast, summary, duration and torrents, quality, sources available
 - Movies streaming with multiple qualities available (720p/1080p)
 - Movies subtitles available in up to 3 languages (French, English, Spanish)
@@ -151,3 +151,7 @@ User can also refine its search by selecting filters:
 - Range of release years
 - Range of ratings
 - Genre
+
+## Movie details
+
+###
