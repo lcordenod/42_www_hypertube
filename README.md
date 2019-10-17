@@ -109,8 +109,6 @@ User can edit his profile information after his account creation, he can edit:
 
 If he edits his username, he will be redirected seamlessly to his new profile url.
 
-// SCREENSHOT HERE
-
 ##### Profile picture
 
 User will necessarily have a profile picture, he sets it on registration and can edit after logging in.
