@@ -48,6 +48,9 @@ Hypertube project handles:
 - Password hashing (Whirlpool)
 - HTML/Javascript/SQL injections prevention
 
+![Hyperflix home](https://user-images.githubusercontent.com/45239771/67023566-4c5efc00-f103-11e9-99e5-424d5e06d288.jpg)
+<p align=center><i>Hyperflix home</i></p>
+
 Discover more details below.
 
 ## User account
