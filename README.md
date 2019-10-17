@@ -22,9 +22,6 @@ See Trello board [here](https://trello.com/b/wteA4xno/42-hypertube)
 - torrent-stream for streaming
 - ffmpeg for video conversion
 
-![Hyperflix home](https://user-images.githubusercontent.com/45239771/67023566-4c5efc00-f103-11e9-99e5-424d5e06d288.jpg)
-<p align=center><i>Hyperflix home</i></p>
-
 ### Features
 
 Hypertube project handles:
@@ -51,6 +48,11 @@ Hypertube project handles:
 - HTML/Javascript/SQL injections prevention
 
 Discover more details below.
+
+## Home
+
+![Hyperflix home](https://user-images.githubusercontent.com/45239771/67023566-4c5efc00-f103-11e9-99e5-424d5e06d288.jpg)
+<p align=center><i>Hyperflix home</i></p>
 
 ## User account
 
