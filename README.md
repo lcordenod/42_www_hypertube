@@ -180,6 +180,8 @@ Comments help users get a glimpse of the movie and see what users think about it
 
 ### Movie playback
 
+#### Movie player
+
 ![Movie player](https://user-images.githubusercontent.com/45239771/67026295-c2fdf880-f107-11e9-8b20-b3fa403b8dcd.jpg)
 <p align=center><i>Movie player</i></p>
 
@@ -187,4 +189,15 @@ When user picks a source from the selector, the download and stream of the movie
 
 The player will progressively get the packages we give it to play so that user can also move the playback of the movie ahead and we will prioritize packages of the movie file from there so that he won't have to wait for the full download of the movie to move into the movie.
 
+#### Subtitles
+
+We also get the subtitles of the movie when the user starts streaming the movie, we store subtitles in 3 languages (French, English, Spanish) when they are available from opensubtitles API.
+
+User can select them from the player, they will be synchronized with the movie as we display them according to the stream progress.
+
+#### Movie conversion
+
+When the format of the movie isn't supported by default by the browser, we convert the movie to the webm format using ffmpeg library. The playback of the movie is slown down so user has to wait for the download/conversion to catch up.
+
+We also added a delay when the movie source that needs to be converted is selected in order to give the player time to get the beginning with the movie.
 
