@@ -25,7 +25,6 @@ See Trello board [here](https://trello.com/b/wteA4xno/42-hypertube)
 ### Features
 
 Hypertube project handles:
-
 - User creation and authentication using tokens and sessions
 - OAuthentication via Twitter, Google, Facebook and 42
 - User profile with basic information, profile picture, movies seen as well as users following
@@ -58,7 +57,6 @@ Discover more details below.
 ### User creation and authentication
 
 User input has been secured on front and back end with immediate feedback for front end input validation. Also password security has been taken seriously with multiple layers of complexity validated on the go, including:
-
 - A lowercase letter
 - A uppercase letter
 - A number
@@ -101,11 +99,11 @@ User profiles are accessible via the `/user/username` url, so this means that ea
 #### Information edition
 
 User can edit his profile information after his account creation, he can edit:
-
 - Firstname
 - Lastname
 - Username
 - Email (private, hidden from profile)
+- Language
 
 If he edits his username, he will be redirected seamlessly to his new profile url.
 
@@ -135,25 +133,21 @@ User is able to delete his account as well, this will remove him from database a
 
 ### Display list
 
-// SCREENSHOT HERE
+![Search](https://user-images.githubusercontent.com/45239771/67025070-b082bf80-f105-11e9-8d92-e3cfa9d71945.jpg)
+<p align=center><i>Search</i></p>
 
 Once registered and logged, users will be able to search for movies on the platform. By default, they will get a list of suggestions of movies based on the best ratings.
 
 #### Search terms
+
+![Search result](https://user-images.githubusercontent.com/45239771/67025138-cf815180-f105-11e9-82bf-201ee41433bb.jpg)
+<p align=center><i>Search result</i></p>
 
 User is able to search a movie by entering completely or partly the name of the movie. If movies match his search term, a list will be returned to him ordered by default of the sorting he picked.
 
 ##### Filters
 
 User can also refine its search by selecting filters:
-
 - Range of release years
 - Range of ratings
-
-##### Sort
-
-Additionally, he can sort the results:
-
-- Default (rating)
-- Name
-- Release date
+- Genre
