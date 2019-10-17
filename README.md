@@ -66,8 +66,8 @@ User input has been secured on front and back end with immediate feedback for fr
 
 Password will be hashed (sha512) with a salt for 5 iterations first before being saved in the DB.
 
-![Hyperflix home](https://user-images.githubusercontent.com/45239771/67024025-035b7780-f104-11e9-9a82-cde8fa7b659d.png)
-<p align=center><i>Hyperflix home</i></p>
+![Register](https://user-images.githubusercontent.com/45239771/67024025-035b7780-f104-11e9-9a82-cde8fa7b659d.png)
+<p align=center><i>Register</i></p>
 
 Before saving user, several checks will also be runned in the background, including:
 
@@ -95,7 +95,8 @@ The reset of password link will have a unique ID, which will be the latest link 
 
 User profiles are accessible via the `/user/username` url, so this means that each user has his own profile link and can share it. Also if user is on his own profile, he will be able to edit it, while if he is on someone else profile, he can follow that user.
 
-// SCREENSHOT HERE
+![User profile](https://user-images.githubusercontent.com/45239771/67024230-58978900-f104-11e9-8859-ac9b47cd3198.gif)
+<p align=center><i>User profile</i></p>
 
 #### Information edition
 
