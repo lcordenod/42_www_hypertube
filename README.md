@@ -240,6 +240,8 @@ The platform has been completely designed with Responsive Design in mind with mu
 
 ![Responsive examples 2](https://user-images.githubusercontent.com/45239771/67100735-7fb39080-f1c0-11e9-9dbf-e0766a906d48.jpg)<p align=center><i>Responsive examples 2</i></p>
 
+Here are a few examples of user exploring the UI:
+
 <p align="center">
   <img width="340" height="730" src="https://user-images.githubusercontent.com/45239771/67096139-c2249f80-f1b7-11e9-980d-05269c2debe7.gif"><p align=center><i>Responsive user profile</i></p>
 </p>
@@ -247,3 +249,49 @@ The platform has been completely designed with Responsive Design in mind with mu
 <p align="center">
   <img width="340" height="730" src="https://user-images.githubusercontent.com/45239771/67098976-69f09c00-f1bd-11e9-80cf-98363103e988.gif"><p align=center><i>Responsive movie page</i></p>
 </p>
+
+## Configuration and additionnal security
+
+### Database
+
+Database is running on MongoDB and we use MongoDB Atlas Interface to manage/host it online.
+
+![Database structure](https://user-images.githubusercontent.com/45239771/66919683-172ead00-f022-11e9-95fb-4d5c720424c2.png)
+<p><i>Database structure</i></p>
+
+### Security
+
+We added manually (no frameworks or ODM/ORM) checks in the front end and back end to protect the application from multiple attacks.
+
+Application is protected against:
+* HTML/Javascript injections -> using input checks and sanitizing (mongo-sanitize) input
+* Malware upload -> using upload checks
+* Password breaches -> using sha512 and salt hashing
+* Cross-site request forgery -> using unique IDs with expiration (password reset, email validation)
+* Cross-site resource sharing -> using authentication validation, tokens as well as sessions (logged out users limited)
+
+## Run project
+
+### Environment setup
+
+To run this project, you will need an Express Node JS server already pre-configured that we provide.
+
+Just make sure to have Node and Express installed to run it.
+
+### DB
+
+As said earlier, the DB is hosted online via MongoDB Atlas for easy management so you won't have to deploy it, just running the project using npm commands will enable connection to this DB.
+
+### Install packages/dependencies
+
+To run the project, you will also need to install some required packages and dependencies, in order to do so:
+* Install backend/frontend packages/dependencies using command -> `npm i` inside the root folder
+
+### Start servers and website
+
+After having done both previous steps, you can start both DB connection and Node JS server/React app using the following
+command -> `npm run dev` from the root folder, it will start both.
+Then, access the website using the following URL: https://localhost:3000/login
+
+Enjoy matches!
+[<p align=center>Go up<p>](#42_www_hypertube)
