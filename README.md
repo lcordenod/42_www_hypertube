@@ -236,9 +236,9 @@ Also files downloaded on the server will be deleted one month after the last str
 The platform has been completely designed with Responsive Design in mind with multiple breakpoints to accommodate most common screen sizes (from iPhone 5 range to desktop/tablet resolutions):
 * From 320px to 1730px
 
-![Responsive examples 1](https://user-images.githubusercontent.com/45239771/66919150-121d2e00-f021-11e9-895b-fa9bab36c0de.jpg)<p align=center><i>Responsive examples 1</i></p>
+![Responsive examples 1](https://user-images.githubusercontent.com/45239771/67100731-7e826380-f1c0-11e9-88e8-06d720f6a04b.jpg)<p align=center><i>Responsive examples 1</i></p>
 
-![Responsive examples 2](https://user-images.githubusercontent.com/45239771/66919151-121d2e00-f021-11e9-8b1f-1a958555fd23.jpg)<p align=center><i>Responsive examples 2</i></p>
+![Responsive examples 2](https://user-images.githubusercontent.com/45239771/67100735-7fb39080-f1c0-11e9-9dbf-e0766a906d48.jpg)<p align=center><i>Responsive examples 2</i></p>
 
 <p align="center">
   <img width="340" height="730" src="https://user-images.githubusercontent.com/45239771/67096139-c2249f80-f1b7-11e9-980d-05269c2debe7.gif"><p align=center><i>Responsive user profile</i></p>
