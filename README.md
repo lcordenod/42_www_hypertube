@@ -1,6 +1,48 @@
-# Hypertube
-
+# 42_www_Hypertube
 Creating a Netflix-like web app to search and stream movies using BitTorrent protocol
+
+## Summary
+
+- [Intro](#intro)
+  - [Stack](#stack)
+  - [Features](#features)
+- [Home](#home)
+- [Languages](#languages)
+  - [Multiple languages UI](#multiple-languages-ui)
+  - [Multiple languages subtitles](#multiple-languages-subtitles)
+- [User account](#user-account)
+  - [User creation and authentication](#user-creation-and-authentication)
+  - [Forgot and change of password](#forgot-and-change-of-password)
+  - [User profile](#user-profile)
+   - [Information edition](#information-edition)
+    - [Profile picture](#profile-picture)
+    - [Movies seen](#movies-seen)
+    - [Following](#following)
+   - [Edit email and password](#edit-email-and-password)
+   - [Delete account](#delete-account)
+- [Movies search](#movies-search)
+  - [Display list](#display-list)
+  - [Search terms](#search-terms)
+    -[Filters](#filters)
+- [Movie](#movie)
+  -[Movie details](#movie-details)
+  -[Comments](#comments)
+  -[Movie playback](#movie-playback)
+    -[Movie player](#movie-player)
+    -[Subtitles](#subtitles)
+    -[Movie conversion](#movie-conversion)
+    -[Additional features](#additional-features)
+      -[Default browser functionalities support](#default-browser-functionalities-support)
+      -[Movie re-stream and deletion](#movie-re-stream-and-deletion)
+- [Responsive design](#responsive-design)
+- [Configuration and additionnal security](#configuration-and-additionnal-security)
+  - [Database](#database)
+  - [Security](#security)
+- [Run project](#run-project)
+  - [Environment setup](#environment-setup)
+  - [DB](#db)
+  - [Install packages/dependencies](#install-packages/dependencies)
+  - [Start servers and website](#start-servers-and-website)
 
 ## Intro
 
@@ -240,7 +282,7 @@ The platform has been completely designed with Responsive Design in mind with mu
 
 ![Responsive examples 2](https://user-images.githubusercontent.com/45239771/67100735-7fb39080-f1c0-11e9-9dbf-e0766a906d48.jpg)<p align=center><i>Responsive examples 2</i></p>
 
-Here are a few examples of user exploring the UI:
+Here are a few examples of the user experience on mobile:
 
 <p align="center">
   <img width="340" height="730" src="https://user-images.githubusercontent.com/45239771/67096139-c2249f80-f1b7-11e9-980d-05269c2debe7.gif"><p align=center><i>Responsive user profile</i></p>
