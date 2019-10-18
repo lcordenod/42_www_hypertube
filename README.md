@@ -41,7 +41,7 @@ Creating a Netflix-like web app to search and stream movies using BitTorrent pro
 - [Run project](#run-project)
   - [Environment setup](#environment-setup)
   - [DB](#db)
-  - [Install packages/dependencies](#install-packages-dependencies)
+  - [Install packages and dependencies](#install-packages-and-dependencies)
   - [Start servers and website](#start-servers-and-website)
 
 ## Intro
@@ -318,7 +318,7 @@ Just make sure to have Node and Express installed to run it.
 
 As said earlier, the DB is hosted online via MongoDB Atlas for easy management so you won't have to deploy it, just running the project using npm commands will enable connection to this DB.
 
-### Install packages/dependencies
+### Install packages and dependencies
 
 To run the project, you will also need to install some required packages and dependencies, in order to do so:
 * Install backend/frontend packages/dependencies using command -> `npm i` inside the root folder
