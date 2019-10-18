@@ -242,5 +242,5 @@ The platform has been completely designed with Responsive Design in mind with mu
 
 ![Responsive user profile](https://user-images.githubusercontent.com/45239771/67096139-c2249f80-f1b7-11e9-980d-05269c2debe7.gif)<p><i>Responsive user profile</i></p>
 
-![Responsive movie page](https://user-images.githubusercontent.com/45239771/67096221-eed8b700-f1b7-11e9-99c7-c097854ba1df.gif)<p><i>Responsive movie page</i></p>
+![Responsive movie page](https://user-images.githubusercontent.com/45239771/67098976-69f09c00-f1bd-11e9-80cf-98363103e988.gif)<p><i>Responsive movie page</i></p>
 
