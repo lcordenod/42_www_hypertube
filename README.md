@@ -256,12 +256,7 @@ Here are a few examples of user exploring the UI:
 
 Database is running on MongoDB and we use MongoDB Atlas Interface to manage/host it online.
 
-![Database structure](https://user-images.githubusercontent.com/45239771/66919683-172ead00-f022-11e9-95fb-4d5c720424c2.png)
-<p><i>Database structure</i></p>
-
 ### Security
-
-We added manually (no frameworks or ODM/ORM) checks in the front end and back end to protect the application from multiple attacks.
 
 Application is protected against:
 * HTML/Javascript injections -> using input checks and sanitizing (mongo-sanitize) input
@@ -275,7 +270,6 @@ Application is protected against:
 ### Environment setup
 
 To run this project, you will need an Express Node JS server already pre-configured that we provide.
-
 Just make sure to have Node and Express installed to run it.
 
 ### DB
@@ -293,5 +287,5 @@ After having done both previous steps, you can start both DB connection and Node
 command -> `npm run dev` from the root folder, it will start both.
 Then, access the website using the following URL: https://localhost:3000/login
 
-Enjoy matches!
+Enjoy!
 [<p align=center>Go up<p>](#42_www_hypertube)
