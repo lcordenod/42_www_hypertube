@@ -41,7 +41,7 @@ Creating a Netflix-like web app to search and stream movies using BitTorrent pro
 - [Run project](#run-project)
   - [Environment setup](#environment-setup)
   - [DB](#db)
-  - [Install packages/dependencies](#install-packages/dependencies)
+  - [Install packages/dependencies](#install-packages-dependencies)
   - [Start servers and website](#start-servers-and-website)
 
 ## Intro
