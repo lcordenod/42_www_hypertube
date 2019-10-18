@@ -240,7 +240,9 @@ The platform has been completely designed with Responsive Design in mind with mu
 
 ![Responsive examples 2](https://user-images.githubusercontent.com/45239771/66919151-121d2e00-f021-11e9-8b1f-1a958555fd23.jpg)<p align=center><i>Responsive examples 2</i></p>
 
-![Responsive user profile](https://user-images.githubusercontent.com/45239771/67096139-c2249f80-f1b7-11e9-980d-05269c2debe7.gif)<p><i>Responsive user profile</i></p>
+<p align="center">
+  <img width="340" height="730" src="https://user-images.githubusercontent.com/45239771/67096139-c2249f80-f1b7-11e9-980d-05269c2debe7.gif">
+</p>
 
 <p align="center">
   <img width="340" height="730" src="https://user-images.githubusercontent.com/45239771/67098976-69f09c00-f1bd-11e9-80cf-98363103e988.gif">
