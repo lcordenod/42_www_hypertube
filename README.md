@@ -54,6 +54,22 @@ Discover more details below.
 ![Hyperflix home](https://user-images.githubusercontent.com/45239771/67023566-4c5efc00-f103-11e9-99e5-424d5e06d288.jpg)
 <p align=center><i>Hyperflix home</i></p>
 
+## Languages
+
+### Multiple languages UI
+
+User interface is available in 3 languages:
+* English
+* French
+* Spanish
+
+User can edit its language when logged out and when logged in as well. English is the default language when arriving on the app while being logged out.
+When user registers, the language he is using will be kept for when he will log in for the first time, there is continuity. Although, once set in its logged in profile, the language will be saved, so when he connects again, he will retrieve his language as well.
+
+### Multiple languages subtitles
+
+I give more details about it further down but as well as being translated, the app also offers subtitbles in French, Spanish and English to users when they are available for the movie played. The movie played is available only in its original language.
+
 ## User account
 
 ### User creation and authentication
@@ -200,4 +216,31 @@ User can select them from the player, they will be synchronized with the movie a
 When the format of the movie isn't supported by default by the browser, we convert the movie to the webm format using ffmpeg library. The playback of the movie is slown down so user has to wait for the download/conversion to catch up.
 
 We also added a delay when the movie source that needs to be converted is selected in order to give the player time to get the beginning with the movie.
+
+#### Additional features
+
+##### Default browser functionalities support
+
+We are using default HTML 5 browser which has:
+* Support of PiP
+* Support of file download
+
+##### Movie re-stream and deletion
+
+In order to avoid streaming multiple times the same movie, when a movie to be streamed is available on our server, we use this file for streaming instead of downloading it again in order to improve speed and storage.
+
+Also files downloaded on the server will be deleted one month after the last stream to save space and avoid saturating the server.
+
+## Responsive design
+
+The platform has been completely designed with Responsive Design in mind with multiple breakpoints to accommodate most common screen sizes (from iPhone 5 range to desktop/tablet resolutions):
+* From 320px to 1730px
+
+![Responsive examples 1](https://user-images.githubusercontent.com/45239771/66919150-121d2e00-f021-11e9-895b-fa9bab36c0de.jpg)<p align=center><i>Responsive examples 1</i></p>
+
+![Responsive examples 2](https://user-images.githubusercontent.com/45239771/66919151-121d2e00-f021-11e9-8b1f-1a958555fd23.jpg)<p align=center><i>Responsive examples 2</i></p>
+
+![Responsive user profile](https://user-images.githubusercontent.com/45239771/67096139-c2249f80-f1b7-11e9-980d-05269c2debe7.gif)<p><i>Responsive user profile</i></p>
+
+![Responsive movie page](https://user-images.githubusercontent.com/45239771/67096221-eed8b700-f1b7-11e9-99c7-c097854ba1df.gif)<p><i>Responsive movie page</i></p>
 
